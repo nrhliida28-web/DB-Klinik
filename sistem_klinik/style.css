@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffeaf3;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(214, 51, 108, 0.15);
+}
+
+h1, h2 {
+    margin-top: 0;
+    color: #d6336c;
+}
+
+p {
+    color: #555;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffd6e5;
+    padding: 20px;
+    min-width: 150px;
+    border-radius: 8px;
+    border-left: 5px solid #d6336c;
+}
+
+.card h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #d6336c;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.menu a,
+.tambah,
+button {
+    background: #d6336c;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu a:hover,
+.tambah:hover,
+button:hover {
+    background: #b82b5b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 550px;
+    margin-top: 20px;
+}
+
+label {
+    color: #555;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #f0a9c2;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #d6336c;
+}
+
+textarea {
+    min-height: 70px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #f3c1d2;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #ffd6e5;
+    color: #a52555;
+}
+
+tr:nth-child(even) {
+    background: #fff7fa;
+}
+
+a {
+    color: #d6336c;
+}
+
+.login-container {
+    width: 350px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(214, 51, 108, 0.2);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.login-container p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-container form {
+    max-width: 100%;
+}
+
+.login-container button {
+    margin-top: 10px;
+}
+
+.error {
+    background: #ffdede;
+    color: #b00000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
